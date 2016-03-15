@@ -13,6 +13,8 @@
 		FCEDC7481C976D40006ED814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEDC7461C976D40006ED814 /* Main.storyboard */; };
 		FCEDC74A1C976D40006ED814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEDC7491C976D40006ED814 /* Assets.xcassets */; };
 		FCEDC74D1C976D40006ED814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEDC74B1C976D40006ED814 /* LaunchScreen.storyboard */; };
+		FCEDC7561C97721B006ED814 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC7551C97721B006ED814 /* GameModel.m */; };
+		FCEDC7591C977228006ED814 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC7581C977228006ED814 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FCEDC7491C976D40006ED814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEDC74C1C976D40006ED814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCEDC74E1C976D40006ED814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEDC7541C97721B006ED814 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		FCEDC7551C97721B006ED814 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		FCEDC7571C977228006ED814 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		FCEDC7581C977228006ED814 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FCEDC7411C976D40006ED814 /* AppDelegate.m */,
 				FCEDC7431C976D40006ED814 /* ViewController.h */,
 				FCEDC7441C976D40006ED814 /* ViewController.m */,
+				FCEDC7541C97721B006ED814 /* GameModel.h */,
+				FCEDC7551C97721B006ED814 /* GameModel.m */,
+				FCEDC7571C977228006ED814 /* Player.h */,
+				FCEDC7581C977228006ED814 /* Player.m */,
 				FCEDC7461C976D40006ED814 /* Main.storyboard */,
 				FCEDC7491C976D40006ED814 /* Assets.xcassets */,
 				FCEDC74B1C976D40006ED814 /* LaunchScreen.storyboard */,
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEDC7451C976D40006ED814 /* ViewController.m in Sources */,
+				FCEDC7561C97721B006ED814 /* GameModel.m in Sources */,
 				FCEDC7421C976D40006ED814 /* AppDelegate.m in Sources */,
 				FCEDC73F1C976D40006ED814 /* main.m in Sources */,
+				FCEDC7591C977228006ED814 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
